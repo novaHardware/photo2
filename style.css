@@ -13,6 +13,21 @@
   display: block;
   width: 50%;
 }
+
+.frame {
+    position: relative;
+}
+.frame:before {
+    position: absolute;
+    content:"";
+    height: 100px;
+    width: 200px;
+    border-radius: 100%;
+    top: 120px;
+    left: 150px;
+    border: 2px solid #000;
+}
+
 .center {
   text-align: center;
 }
